@@ -1,0 +1,51 @@
+.header {
+    padding: 1.2rem;
+    .logo {
+        margin-left: 1.5rem;
+        img {
+            max-width: 120px;
+            height: 40px;
+        }
+    }
+    .login {
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-bottom: 1rem;
+
+        &_btn {
+            margin-right: 1.5rem;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #004e70;
+            ps-ico {
+                padding-right: .3rem;
+            }
+        }
+    }
+    hr {
+        opacity: .7;
+    }
+    .sub-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: .3rem;
+        ul {
+            li {
+                display: inline-block;
+                margin-left: .7rem;
+                margin-right: .7rem;
+                font-weight: 700;
+                h4 {
+                    font-size: .7rem;
+                    font-weight: 800;
+                }
+                h4:hover {
+                    color: #004e70;
+                }
+            }
+        }
+    }
+}

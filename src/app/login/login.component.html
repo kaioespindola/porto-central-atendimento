@@ -1,0 +1,60 @@
+<div class="login" ps-container>
+
+  <div ps-row>
+
+    <div class="titulo" ps-column ps-mobile="8" ps-tablet="12" ps-desktop-sm="12" ps-desktop-lg="12">
+        <h1>Acesse sua Conta</h1>
+    </div>
+    <div class="titulo" ps-column ps-mobile="8" ps-tablet="12" ps-desktop-sm="12" ps-desktop-lg="12">
+      <p>Preencha os dados para prosseguir</p>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="form">
+
+  <div ps-row>
+    
+    <div ps-column ps-mobile="8" ps-tablet="12" ps-desktop-sm="12" ps-desktop-lg="12">
+      <ps-form-field [label-internal]="'Digite seu CPF ou CNPJ'" [popover]="'Texto do popover'">
+        <input ps-field-entry name="nome" value="" ps-mask="999.999.999-99">
+      </ps-form-field>
+    </div>
+
+    <div ps-column ps-mobile="8" ps-tablet="12" ps-desktop-sm="12" ps-desktop-lg="12">
+      <div class="senha"> <b>-> Esqueci minha senha</b></div>
+    </div>
+
+    <div class="social titulo" ps-column ps-mobile="8" ps-tablet="12" ps-desktop-sm="12" ps-desktop-lg="12">
+      <p>Ou entre com sua conta social</p>
+    </div>
+
+    <div class="social" ps-column ps-mobile="8" ps-tablet="12" ps-desktop-sm="12" ps-desktop-lg="12">
+      <div ps-row>
+        <div class="icon" ps-column ps-mobile="4">
+          <button ps-btn><ps-ico ps-ico="facebook"></ps-ico> Facebook</button>
+        </div>
+        <div class="icon" ps-column ps-mobile="4">
+          <button ps-btn><ps-ico ps-ico="googleplus"></ps-ico> Google</button>
+        </div>
+    </div>
+
+    <div class="cadastro titulo" ps-column ps-mobile="8" ps-tablet="12" ps-desktop-sm="12" ps-desktop-lg="12">
+      <h4>Não possui um login?</h4>
+    </div>
+
+    <div class="titulo" ps-column ps-mobile="8" ps-tablet="12" ps-desktop-sm="12" ps-desktop-lg="12">
+      <div class="cadastrar">
+        <b>Cadastre-se</b>
+      </div>
+    </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<app-areas-externas></app-areas-externas>
