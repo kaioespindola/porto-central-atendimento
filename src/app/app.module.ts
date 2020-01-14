@@ -20,13 +20,15 @@ import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { LoginComponent } from './login/login.component';
 import { AreasExternasComponent } from './shared/components/areas-externas/areas-externas.component';
+import { TituloComponent } from './shared/components/titulo/titulo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     LoginComponent,
-    AreasExternasComponent
+    AreasExternasComponent,
+    TituloComponent
   ],
   imports: [
     BrowserModule,
